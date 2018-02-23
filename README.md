@@ -1,13 +1,13 @@
-# Angular 5 with dashboard and contact page
+# Angular 5 DEMO
  
 
-The project is an Angular 5 starter project that has the npm modules, 
-configuration, scripts and folders and routing in place to make getting started 
-with an Angular project easy!
+This project is an Angular 5 Demo that has the npm modules, 
+configuration, scripts and folders and routing in place to help getting started 
+with an Angular project easier!
 
-Here's what is in the project:
+Here's what is in the Demo:
 
-* Angular scripts and TypeScript configuration are ready to go
+* Angular scripts and TypeScript configuration are ready to be used.
 * A simple app component 
 * Bootstrap for CSS
 
