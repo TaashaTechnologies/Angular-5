@@ -1,0 +1,74 @@
+<div [@routerTransition]>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <ngb-carousel>
+                <ng-template ngbSlide *ngFor="let slider of sliders">
+                    <img class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%">
+                    <div class="carousel-caption">
+                        <h3>{{slider.label}}</h3>
+                        <p>{{slider.text}}</p>
+                    </div>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+    </div>
+    <hr>
+    <div class="row">    
+         <div class="col-xl-4 col-lg-4">  
+            <img src="assets/images/revenue.jpg" class="width-full">
+        </div>
+        <div class="col-xl-2 col-lg-2 meta-container" > 
+              Want to know how you can increase your revenue generation and turnaround potential with some pro tips. Join our newsletter and we will tell you the secret which is proven to increase revenue generation by 50 % !
+         </div>
+    <div class="col-xl-6 col-lg-6">           
+     <div class="list-5a8e7629be710  md-align-left list-shortcode row">                
+         
+         <div class="col-xl-6 col-lg-6">
+            <div class="col-xl-11 col-lg-11">
+            <form role="form">                
+                <div class="form-group has-success">
+                                                    
+                    <input type="text" placeholder="Enter Name" class="form-control form-control-success">
+                </div>
+
+                <div class="form-group has-warning">  
+            
+                    <input type="text" placeholder="Enter WebSite" class="form-control form-control-warning">
+                </div>
+            </form>
+
+            <form role="form">                
+                <div class="form-group has-success">
+            
+                    <input type="text" placeholder="Enter Phone Number" class="form-control form-control-success">
+                </div>
+
+                <div class="form-group has-warning">
+            
+                    <input type="text" placeholder="Enter Email" class="form-control form-control-warning" >
+                </div>
+            </form>
+
+            </div>
+            <div class="col-xl-1 col-lg-1"></div>
+        </div>
+         <div class="col-xl-6 col-lg-6">
+            <div class="margin-left-30"> 
+                <fieldset class="form-group">                    
+                    <textarea class="form-control" placeholder="Comment" rows="8"></textarea>
+                </fieldset>
+ 
+            </div>
+            <div class="col-xl-1 col-lg-1"></div>            
+        </div>
+    </div>
+    <div class="row">
+                <div ></div>
+                <div class="col-xl-11 col-lg-11 text-align-center" >
+                    <button class="btn btn-md btn-outline-success width-100"> Submit </button>
+                </div>
+                <div class="col-xl-3 col-lg-3"></div>
+    </div>
+</div>
+</div>
