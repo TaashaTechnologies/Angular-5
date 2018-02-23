@@ -7,7 +7,7 @@ with an Angular project easier!
 
 Here's what is in the Demo:
 
-* Angular scripts and TypeScript configuration are ready to be used.
+* Angular scripts and TypeScript configuration are ready to be used
 * A simple app component 
 * Bootstrap for CSS
 
